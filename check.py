@@ -45,7 +45,7 @@ def checkAllMesages(message):
     response("You can borrow a computer from room 315", [
              "how", "do", "i", "borrow", "a", "computer"], ["borrow", "computer"])
     response("The guidance office is on the third floor", ["where", "is", "the", "guidance", "office"], ["guidance", "office"])
-    
+    response("You can apply for the ID in room 310", ["how", "can", "i", "apply", "for", "new", "id"], ["apply", "id"])
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice'], required_words=['advice'])
     response(long.R_EATING, ['what', 'you', 'eat'],
