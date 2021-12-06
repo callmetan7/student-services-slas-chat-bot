@@ -45,8 +45,9 @@ def checkAllMesages(message):
     response("You can borrow a computer from room 315", [
              "how", "do", "i", "borrow", "a", "computer"], ["borrow", "computer"])
     response("The guidance office is on the third floor", ["where", "is", "the", "guidance", "office"], ["guidance", "office"])
-    response("The lost and found is outside next to the playground", ["where", "is", "the", "lost, "and", "found"])
-    response("The cafeteria is on the ground floor near the bathrooms", ["where", "is", "the", "cafeteria"], ["where", "cafeteria"])                                                                  
+    response("The lost and found is outside next to the playground", ["where", "is", "the", "lost, "and", "found", ["lost", "and", "found"])
+    response("The cafeteria is on the ground floor near the bathrooms", ["where", "is", "the", "cafeteria"], ["where", "cafeteria"])  
+    response("The principal's office is on the third floor", ["Where", "is", "the", "principal's", "office"], ["principal's", "office"])
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice'], required_words=['advice'])
     response(long.R_EATING, ['what', 'you', 'eat'],
