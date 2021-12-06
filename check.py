@@ -47,6 +47,7 @@ def checkAllMesages(message):
     response("The guidance office is on the third floor", ["where", "is", "the", "guidance", "office"], ["guidance", "office"])
     response("You can apply for the ID in room 310", ["how", "can", "i", "apply", "for", "new", "id"], ["apply", "id"])
     response("A student ID costs 25 RMB, and it has to be in cash", ["how", "much", "does", "a", "new", "id", "cost"], ["id", "cost"])
+    response("You can apply for a new locker key in room 310", ["how", "can", "i", "apply", "for", "a", "new", "locker", "key"], ["new", "locker", "key"]
     response("The secondary computer classroom is on the fifth floor, and is number 521", ["where", "is", "the", "secondary", "computer", "classroom"], ["secondary," "computer"])
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice'], required_words=['advice'])
