@@ -56,8 +56,8 @@ def checkAllMesages(message):
 
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
 
-    response("You can borrow a computer from room 315", [
-             "how", "do", "i", "borrow", "a", "computer"], required_words=["borrow", "computer"])
+    response("You can borrow a computer from room 315", ["how", "do", "i", "borrow", "a", "computer"], required_words=["borrow", "computer"])
+    response("You can apply for a new locker key in room 310", ["how", "can", "i", "apply", "for", "a", "new", "locker", "key"], ["new", "locker", "key"])
 
     response("The guidance office is on the third floor", [
              "where", "is", "the", "guidance", "office"], required_words=["guidance", "office"])
