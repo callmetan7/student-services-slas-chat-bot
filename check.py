@@ -87,10 +87,10 @@ def checkAllMesages(message):
     best_match = max(highest_prob_list, key=highest_prob_list.get)
 
     # DEBUGGING TOOLS IF NEEDED
-    print(highest_prob_list)
-    print("")
-    print(
-        f'Best match = {best_match} | Score: {highest_prob_list[best_match]}')
+    # print(highest_prob_list)
+    # print("")
+    # print(
+    #    f'Best match = {best_match} | Score: {highest_prob_list[best_match]}')
     if highest_prob_list[best_match] < ignore_list[best_ignore_match]:
         return best_ignore_match
     elif highest_prob_list[best_match] < 1:
