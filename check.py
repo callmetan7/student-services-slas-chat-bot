@@ -70,9 +70,10 @@ def checkAllMesages(message):
 
     response("The secondary computer classroom is on the fifth floor, and is number 521", [
              "where", "is", "the", "secondary", "computer", "classroom"], ["secondary", "computer"])
-
+    response("The gym, or PE classroom is in the right side of the playground (in the back)", [
+             "Where", "is", "the", "pe", "classroom"], ["gym", "pe"])
     response("Don't worry about it.", ["sorry", "sry"], ["sorry", "sry"])
-
+        
     # Ignored Responses
     ignoreResponse("Good to hear", [
                    "i", "doing", "good", "fine", "ok"], required_words=["i", "good"])
