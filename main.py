@@ -1,10 +1,8 @@
 import re
-import long_responses as long
 import check as check
+import colors as colors 
 
 # Used to get the response
-
-
 def get_response(user_input):
     split_message = re.split(r'\s+|[,;?!.-]\s*', user_input.lower())
     if split_message == ["quit"]:
@@ -13,6 +11,8 @@ def get_response(user_input):
         currentIndex = 0
         if word == "im":
             split_message[currentIndex] = "i"
+        elif word == "laptop":
+            split_message[currentIndex] = "computer"
         currentIndex += 1
     response = check.checkAllMesages(split_message)
     return response
@@ -20,4 +20,4 @@ def get_response(user_input):
 
 # Testing the response system
 while True:
-    print('Bot: ' + get_response(input('You: ')))
+    print(f'{colors.RESET}Bot: {colors.HEADER} ' + get_response(input(f'{colors.RESET}You: {colors.OKBLUE} ')))
