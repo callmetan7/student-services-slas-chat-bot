@@ -14,7 +14,6 @@ def get_response(user_input):
         elif word == "laptop":
             split_message[currentIndex] = "computer"
         currentIndex += 1
-    print(split_message)
     response = check.checkAllMesages(split_message)
     return response
 
