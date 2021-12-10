@@ -14,10 +14,11 @@ def get_response(user_input):
         elif word == "laptop":
             split_message[currentIndex] = "computer"
         currentIndex += 1
+    # print(split_message)
     response = check.checkAllMesages(split_message)
     return response
 
-
-# Testing the response system
-while True:
-    print(f'{colors.RESET}Bot: {colors.HEADER} ' + get_response(input(f'{colors.RESET}You: {colors.OKBLUE} ')))
+def main():
+    while True:
+        print(f'{colors.RESET}Bot: {colors.HEADER} ' + get_response(input(f'{colors.RESET}You: {colors.OKBLUE} ')))
+main()

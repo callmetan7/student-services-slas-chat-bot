@@ -3,3 +3,9 @@ OKBLUE = '\033[94m'
 OKGREEN = '\033[92m'
 WARNING = '\033[93m'
 RESET = '\033[0m'
+
+underline = '\033[0m'
+fgBlue = "\033[34m"
+fgBrightBlue = "\033[34;1m"
+bgBlue = "\033[44m"
+bgBrightBlue = "\033[44;1m"
