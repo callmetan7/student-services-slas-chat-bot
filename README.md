@@ -15,20 +15,16 @@
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
 
-
 ## Key Features
 
-* Quick and fast response - instantly get a response 
+- Quick and fast response - instantly get a response
   - Instantly see the anwser to your question.
-* Modular Codebase 
+- Modular Codebase
   - Extremely modular codebase for easy contribution.
-* Color coordinated 
+- Color coordinated
 
 ## How To Use
 
@@ -42,7 +38,7 @@ $ git clone https://github.com/callmetan7/student-services-slas-chat-bot.git
 $ cd student-services-slas-chat-bot
 
 # Run the app
-$ python3 main.py 
+$ python3 main.py
 ```
 
 ## License
